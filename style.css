@@ -1,0 +1,154 @@
+
+#nav-bar{
+    height:90px;
+    
+}
+#nav-bar:hover{
+    opacity:1;
+    color:white;
+    background-color: black;
+
+}
+#nav-bar:hover a{
+    color:white;
+}
+#links{
+    float: right;
+    padding-right: 100px;
+    z-index: 3000;
+    margin-top: -50px;
+
+}
+
+ a{
+    text-decoration: none;
+    margin:10px;
+    z-index: 1;
+    color: black;
+    background-size: 70px;
+}
+
+body{
+    margin: 0;
+    font-weight: 700;
+    font-family: 'Comfortaa', cursive;
+    letter-spacing: 0.7;
+    font-weight: 800;
+}
+#text-box{
+    height:220px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#article{
+    
+  position: relative;
+    margin-left: 19%;
+    padding: 10px;
+    text-align: center;
+    width:60%;
+    background: white;
+   border-radius: 5px 20px 0px 20px;
+    line-height: 1.5;
+    border:2px solid #0e8bf2;
+    }
+
+#textarea{
+border-radius: 5px 20px 0px 20px;
+border:2px solid #0e8bf2;
+position: relative;
+top:20px;
+width: 60%;
+height:20%;
+margin-top: 25px;
+ font-family: 'Comfortaa', cursive;
+ padding-left: 20px;
+ border-collapse: all;
+
+}
+#article:hover{
+     box-shadow: 10px 2px 2px #0e8bf2;
+ }
+ #textare:hover{
+     box-shadow: 10px 2px 2px #0e8bf2;
+ }
+#bottom-div{
+    position: relative;
+    width:100%;
+   display: flex;
+    margin-top: 0px;
+    text-align: center;
+}
+#count{
+    font-size: 40px;
+    color: #313438;
+}
+#spa{
+    font-size: 20px;
+    color: #313438;
+    }
+#timer{
+    font-size: 40px;
+     color: #313438;
+}
+h2{
+    color:white;
+    width:30%;
+   padding: 20px
+}
+#logo{
+    height: 20px;
+    width:40px;
+}
+h3{
+color: #313438;
+}
+#reset{
+
+}
+#article span{
+    color:red;
+
+}
+
+#article p{
+    color:green; 
+    font-size:16px;
+}
+#elements{
+    padding-top: 30px;
+   margin: 35px;
+   margin-left: 100px;
+   width:200px;
+   border-style: dotted;
+   border-radius: 5px 20px 0px 20px;
+   border-color: #0e8bf2;
+   /*box-shadow: 60px -16px #0e8bf2;*/
+   border:0.5px solid #0e8bf2;
+}
+#type-head{
+    color: #0e8bf2;
+}
+#reset{
+    background: #0e8bf2;
+    border-radius: 5px;
+    width:150px;
+    border:0.5px solid black;
+    color:white;
+    font-weight: bold;
+    height: 50px;
+    font-size: 20px;
+}
+#reset:hover{
+    background:black;
+    color:white;
+}
+#elements1{
+   margin: 35px;
+   margin-left: 100px;
+   width:200px;
+}
+#elements:hover{
+     box-shadow: 10px 2px 2px #0e8bf2;
+
