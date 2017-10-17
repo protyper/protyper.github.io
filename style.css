@@ -49,13 +49,13 @@ body{
     text-align: center;
     width:60%;
     background: white;
-   border-radius: 5px 20px 0px 20px;
-    line-height: 1.5;
+    border-radius: 10px;
     border:2px solid #0e8bf2;
+    line-height: 1.5;
     }
 
 #textarea{
-border-radius: 5px 20px 0px 20px;
+border-radius: 5px;
 border:2px solid #0e8bf2;
 position: relative;
 top:20px;
@@ -67,12 +67,12 @@ margin-top: 25px;
  border-collapse: all;
 
 }
-#article:hover{
+/*#article:hover{
      box-shadow: 10px 2px 2px #0e8bf2;
  }
  #textare:hover{
      box-shadow: 10px 2px 2px #0e8bf2;
- }
+ }*/
 #bottom-div{
     position: relative;
     width:100%;
@@ -121,11 +121,10 @@ color: #313438;
    margin: 35px;
    margin-left: 100px;
    width:200px;
-   border-style: dotted;
-   border-radius: 5px 20px 0px 20px;
+/*   border-style: dotted;
    border-color: #0e8bf2;
-   /*box-shadow: 60px -16px #0e8bf2;*/
-   border:0.5px solid #0e8bf2;
+   box-shadow: 60px -16px #0e8bf2;
+   border:0.5px solid #0e8bf2;*/
 }
 #type-head{
     color: #0e8bf2;
