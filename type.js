@@ -7,7 +7,9 @@ window.onload = function here() {
   var messageLength;
   var s = ["In computing, a computer keyboard is a typewriter-style device which uses an arrangement of buttons or keys to act as a mechanical lever or electronic switch. Following the decline of punch cards and paper tape, interaction via teleprinter-style keyboards became the main input device for computers.",
   		   "The keyboard on the teleprinter played a strong role in point-to-point and point-to-multipoint communication for most of the 20th century, while the keyboard on the keypunch device played a strong role in data entry and storage for just as long.",
-  		   "In normal usage, the keyboard is used as a text entry interface to type text and numbers into a word processor, text editor or other programs. In a modern computer, the interpretation of key presses is generally left to the software."]
+  		   "In normal usage, the keyboard is used as a text entry interface to type text and numbers into a word processor, text editor or other programs. In a modern computer, the interpretation of key presses is generally left to the software.",
+  		   "One factor determining the size of a keyboard is the presence of duplicate keys, such as a separate numeric keyboard, for convenience. A keyboard with few keys is called a keypad. See also text entry interface Another factor determining the size of a keyboard is the size and spacing of the keys.",
+  		   "Keyboards on laptops and notebook computers usually have a shorter travel distance for the keystroke, shorter over travel distance, and a reduced set of keys. They may not have a numerical keypad, and the function keys may be placed in locations that differ from their placement on a standard, full-sized keyboard."];
 typeagn = document.getElementById("typeagn");
 typeagn.disabled = true;
 var item = Math.floor(Math.random()*s.length);
@@ -78,5 +80,5 @@ document.getElementById("article").style.color = "green";
 alert("Wrongly typed and untyped characters are shown in red color");
 typeagn.disabled = false;
 reset.disabled = true;
-
+return 0;
 }
