@@ -49,7 +49,7 @@ var article = document.getElementById("article").innerHTML;
 var str = document.getElementById("textarea").value;
 var after = '';
 var counter = 0;
-for(var i=0;i<str.length;i++)
+for(var i=0;i<article.length;i++)
 {
   var a = article.charAt(i);
   if(str.charAt(i) != a)
@@ -75,7 +75,7 @@ var acc = Math.floor((counter/str.length)*100);
 document.getElementById("acc").innerHTML = acc + "%";
 document.getElementById("article").innerHTML = after;
 document.getElementById("article").style.color = "green";
-alert("Wrongly typed characters are shown in red color");
+alert("Wrongly typed and untyped characters are shown in red color");
 typeagn.disabled = false;
 reset.disabled = true;
 
