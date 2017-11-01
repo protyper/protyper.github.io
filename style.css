@@ -138,11 +138,23 @@ color: #313438;
     font-weight: bold;
     height: 50px;
     font-size: 20px;
+    cursor:pointer;
+    margin-bottom: 10px;
 }
 #reset:hover{
     background:black;
     color:white;
 }
+#reset:disabled{
+    opacity:0;
+     border:0.5px solid black;
+}
+#reset:disabled:hover{
+    color:white;
+     background: #0e8bf2;
+}
+
+
 #elements1{
    margin: 35px;
    margin-left: 100px;
@@ -150,4 +162,31 @@ color: #313438;
 }
 #elements:hover{
      box-shadow: 10px 2px 2px #0e8bf2;
-
+}
+#typeagn{
+    background: #0e8bf2;
+    border-radius: 5px;
+    width:150px;
+    border:0.5px solid black;
+    color:white;
+    font-weight: bold;
+    height: 50px;
+    font-size: 20px;
+    cursor:pointer;
+}
+#typeagn:hover{
+    background:black;
+    color:white;
+}
+#typeagn:disabled{
+    opacity:0;
+     border:0.5px solid black;
+}
+#typeagn:disabled:hover{
+    color:white;
+     background: #0e8bf2;
+}
+#acc{
+    font-size: 40px;
+    color: #313438;
+}
